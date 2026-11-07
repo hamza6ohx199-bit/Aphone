@@ -1,0 +1,95 @@
+{
+  ".claude/launch.json": {
+    "mtime": 1793737362.0390599,
+    "seen": 1793951445.3669853,
+    "ast_hash": "bc11610591f9237e9ff1799a359962fb",
+    "semantic_hash": "bc11610591f9237e9ff1799a359962fb",
+    "ast_empty": true
+  },
+  ".claude/settings.json": {
+    "mtime": 1793951267.0775807,
+    "seen": 1793951445.3669853,
+    "ast_hash": "d1c2d74b6d7805080e3963e17827262a",
+    "semantic_hash": "d1c2d74b6d7805080e3963e17827262a",
+    "ast_empty": true
+  },
+  ".codex/hooks.json": {
+    "mtime": 1793951280.1538315,
+    "seen": 1793951445.3669853,
+    "ast_hash": "5ebef3dd159986e465ab65e4014107ec",
+    "semantic_hash": "5ebef3dd159986e465ab65e4014107ec",
+    "ast_empty": true
+  },
+  "app.json": {
+    "mtime": 1793810228.8837519,
+    "seen": 1793951445.3669853,
+    "ast_hash": "c48d833d336c36d34817b495ce8af7e5",
+    "semantic_hash": "c48d833d336c36d34817b495ce8af7e5"
+  },
+  "babel.config.js": {
+    "mtime": 1793720121.066961,
+    "seen": 1793951445.3669853,
+    "ast_hash": "8fc7a520543679a79421ba4e2dbcfe90",
+    "semantic_hash": "8fc7a520543679a79421ba4e2dbcfe90"
+  },
+  "package.json": {
+    "mtime": 1793810026.5167842,
+    "seen": 1793951445.3679857,
+    "ast_hash": "1b8cd359bd602b0af7a025b23ca47a83",
+    "semantic_hash": "1b8cd359bd602b0af7a025b23ca47a83"
+  },
+  "plugins/withHomeLauncher.js": {
+    "mtime": 1793720066.6553397,
+    "seen": 1793951445.3679857,
+    "ast_hash": "21aec8b95553a7652ef6345dcd189be1",
+    "semantic_hash": "21aec8b95553a7652ef6345dcd189be1"
+  },
+  "plugins/withNdkVersion.js": {
+    "mtime": 1793810211.6582205,
+    "seen": 1793951445.3679857,
+    "ast_hash": "37fe6c31a6e55f45539eb6cdf3e30a05",
+    "semantic_hash": "37fe6c31a6e55f45539eb6cdf3e30a05"
+  },
+  "src/app/_layout.tsx": {
+    "mtime": 1793720147.2614353,
+    "seen": 1793951445.3679857,
+    "ast_hash": "46a2e8f992b56847b38b9e5b77560cb6",
+    "semantic_hash": "46a2e8f992b56847b38b9e5b77560cb6"
+  },
+  "src/app/index.tsx": {
+    "mtime": 1793720147.358131,
+    "seen": 1793951445.3689837,
+    "ast_hash": "3fe461888d05e49efcdbf2746cfb397c",
+    "semantic_hash": "3fe461888d05e49efcdbf2746cfb397c"
+  },
+  "src/theme/ThemeContext.tsx": {
+    "mtime": 1793720097.1167476,
+    "seen": 1793951445.3689837,
+    "ast_hash": "1f3cdd0d7b3208ad0348b6aba9e4836a",
+    "semantic_hash": "1f3cdd0d7b3208ad0348b6aba9e4836a"
+  },
+  "src/theme/defaultTheme.ts": {
+    "mtime": 1793720082.401173,
+    "seen": 1793951445.3689837,
+    "ast_hash": "b4b7885635b65aee0641a95d971f2d84",
+    "semantic_hash": "b4b7885635b65aee0641a95d971f2d84"
+  },
+  "src/theme/profiles.ts": {
+    "mtime": 1793720086.9704916,
+    "seen": 1793951445.3699853,
+    "ast_hash": "367e32f189f8198604608cd4035c8332",
+    "semantic_hash": "367e32f189f8198604608cd4035c8332"
+  },
+  "src/theme/types.ts": {
+    "mtime": 1793720078.9816344,
+    "seen": 1793951445.3699853,
+    "ast_hash": "d54705472e240005ae6816a7cf949c89",
+    "semantic_hash": "d54705472e240005ae6816a7cf949c89"
+  },
+  "tsconfig.json": {
+    "mtime": 1793720110.5996745,
+    "seen": 1793951445.3699853,
+    "ast_hash": "ef16d6e816deebcc25a0538996603b0f",
+    "semantic_hash": "ef16d6e816deebcc25a0538996603b0f"
+  }
+}
