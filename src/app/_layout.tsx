@@ -4,7 +4,24 @@ import { useEffect } from 'react';
 import { I18nManager } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-import { ThemeProvider } from '@/theme/ThemeContext';
+import { ThemeProvider, useTheme } from '@/theme/ThemeContext';
+
+function ThemedApp() {
+  const { palette } = useTheme();
+
+  return (
+    <>
+      <StatusBar style={palette.statusBarStyle} />
+      <Stack
+        screenOptions={{
+          headerShown: false,
+          contentStyle: { backgroundColor: palette.background },
+          animation: 'fade',
+        }}
+      />
+    </>
+  );
+}
 
 export default function RootLayout() {
   useEffect(() => {
@@ -19,8 +36,7 @@ export default function RootLayout() {
   return (
     <SafeAreaProvider>
       <ThemeProvider>
-        <StatusBar style="auto" />
-        <Stack screenOptions={{ headerShown: false }} />
+        <ThemedApp />
       </ThemeProvider>
     </SafeAreaProvider>
   );

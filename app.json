@@ -16,6 +16,7 @@
       "./plugins/withHomeLauncher",
       "./plugins/withNdkVersion",
       "./plugins/withCmakePathFix",
+      "./plugins/withNinjaOverride",
       "expo-build-properties"
     ],
     "ios": {
