@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { I18nManager } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import { PinGate } from '@/components/PinGate';
 import { ThemeProvider, useTheme } from '@/theme/ThemeContext';
 
 function ThemedApp() {
@@ -12,13 +13,15 @@ function ThemedApp() {
   return (
     <>
       <StatusBar style={palette.statusBarStyle} />
-      <Stack
-        screenOptions={{
-          headerShown: false,
-          contentStyle: { backgroundColor: palette.background },
-          animation: 'fade',
-        }}
-      />
+      <PinGate>
+        <Stack
+          screenOptions={{
+            headerShown: false,
+            contentStyle: { backgroundColor: palette.background },
+            animation: 'fade',
+          }}
+        />
+      </PinGate>
     </>
   );
 }
