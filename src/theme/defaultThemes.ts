@@ -14,6 +14,7 @@ export const THEME_PROFILES: Record<ThemeMode, ThemePalette> = {
     surface: '#121212',
     card: '#1A1A1A',
     cardSecondary: '#222222',
+    gradient: ['#1A1A2E', '#0A0A0A'],
     
     // Borders & Dividers
     border: '#2A2A2A',
@@ -63,6 +64,7 @@ export const THEME_PROFILES: Record<ThemeMode, ThemePalette> = {
     surface: '#1A1442',
     card: '#241A5C',
     cardSecondary: '#2E2272',
+    gradient: ['#3B0764', '#0F0C24'],
     
     // Borders & Dividers
     border: '#8B5CF6',
@@ -112,6 +114,7 @@ export const THEME_PROFILES: Record<ThemeMode, ThemePalette> = {
     surface: '#FAFAFA',
     card: '#F3F4F6',
     cardSecondary: '#E5E7EB',
+    gradient: ['#EEF2FF', '#FFFFFF'],
     
     // Borders & Dividers
     border: '#E5E7EB',

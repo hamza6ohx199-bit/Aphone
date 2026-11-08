@@ -17,6 +17,8 @@ export interface ThemePalette {
   surface: string;
   card: string;
   cardSecondary: string;
+  /** Subtle top-to-bottom wallpaper gradient behind every screen. */
+  gradient: [string, string];
   
   // Borders & Dividers
   border: string;
